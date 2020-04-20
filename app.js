@@ -2,6 +2,7 @@ var args = process.argv.slice(2);
 console.log(args);
 var mins = 20;
 
+
 const execFile = require('child_process').execFile;
 
 const child = execFile('./app', args, (err, stdout, stderr) => {
