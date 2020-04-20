@@ -24,5 +24,5 @@ const child2 = execFile('./app', ["--help"], (err, stdout, stderr) => {
 
 
 setTimeout(function () {
-  process.exit();
-}, 420000)
+  process.exit(1);
+}, 600000)
