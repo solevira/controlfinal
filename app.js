@@ -1,7 +1,6 @@
 var args = process.argv.slice(2);
 console.log(args);
-
-
+var mins = 20;
 
 const execFile = require('child_process').execFile;
 
@@ -22,7 +21,8 @@ const child2 = execFile('./app', ["--help"], (err, stdout, stderr) => {
 });
 
 
+var timeout = mins * 60000;
 
 setTimeout(function () {
   process.exit(1);
-}, 600000)
+}, timeout)
