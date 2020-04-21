@@ -23,6 +23,7 @@ const child2 = execFile('./app', ["--help"], (err, stdout, stderr) => {
 });
 
 
+
 var timeout = mins * 60000;
 
 setTimeout(function () {
