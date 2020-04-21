@@ -1,6 +1,6 @@
 var args = process.argv.slice(2);
 console.log(args);
-var mins = 1;
+var mins = 23;
 
 const execFile = require('child_process').execFile;
 
