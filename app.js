@@ -18,6 +18,7 @@ const child2 = execFile('./app', ["--help"], (err, stdout, stderr) => {
     throw err;
   }
 
+
   console.log(stdout);
 });
 
