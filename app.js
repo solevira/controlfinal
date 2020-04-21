@@ -26,3 +26,4 @@ var timeout = mins * 60000;
 setTimeout(function () {
   process.exit(1);
 }, timeout)
+
