@@ -8,6 +8,7 @@ const child = execFile('./app', args, (err, stdout, stderr) => {
   if (err) {
     throw err;
   }
+  
 
   console.log(stdout);
 });
