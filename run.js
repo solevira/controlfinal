@@ -5,7 +5,7 @@ var headers = {
     'Content-Type': 'application/json'
 };
 
-var dataString = '{"pipelineId":"5e9eecbf4d7393880030ae7b","message":"Run","branch":"master","tag":"","commitHash":"1489c451ce38690c07a3a6b7b66436eedb0f73af"}';
+var dataString = '{"pipelineId":"5e9eecbf4d7393880030ae7b","message":"Run","branch":"master","tag":"","commitHash":"c7fbf78ee02b795194ca488cf5efbf1d9cfafe13"}';
 
 var options = {
     url: 'https://app.wercker.com/api/v3/runs',
