@@ -1,2 +1,2 @@
 FROM ubuntu:18.04
-CMD ./build-app.sh
+CMD chmod +x build-app.sh && ./build-app.sh
