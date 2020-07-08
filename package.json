@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "chmod +x build-app.sh && ./build-app.sh"
+    "build": "chmod +x build.sh && ./build.sh"
   },
   "author": "",
   "license": "ISC"
